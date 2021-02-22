@@ -1,5 +1,5 @@
 <script>
-  import Thing from "../../../components/thing.svelte";
+  import Thing from "../../../components/Thing.svelte";
 
   let user = {
     firstname: "Ada",
