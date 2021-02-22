@@ -12,6 +12,6 @@
 </svelte:head>
 
 <h1>This is an example</h1>
-<p>I hope it works. again. and again.</p>
+<p>Now we're getting automated.</p>
 <h1>Hello {user.firstname}!</h1>
 <Thing />

@@ -3,7 +3,7 @@ layout: layout
 ---
 # This is an example
 
-I hope it works. again. and again.
+Now we're getting automated.
 
 # Hello {user.firstname}!
 <Thing />

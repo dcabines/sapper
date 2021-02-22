@@ -8,7 +8,10 @@
     "build": "sapper export",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
-    "test": "run-p --race dev cy:run"
+    "test": "run-p --race dev cy:run",
+    "11ty": "eleventy --input=content --output=src/routes/other",
+    "rename": "node renamer",
+    "deploy": "npm run 11ty && npm run rename && npm run build"
   },
   "dependencies": {
     "compression": "^1.7.1",
