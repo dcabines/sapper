@@ -6,4 +6,5 @@ layout: layout
 Now we're getting automated.
 
 # Hello {user.firstname}!
+<input type="text" bind:value={user.firstname}>
 <Thing />

@@ -1,7 +1,7 @@
 <script>
   import Thing from "../../../components/Thing.svelte";
 
-  let user = {
+  export let user = {
     firstname: "Ada",
     lastname: "Lovelace",
   };
@@ -14,4 +14,5 @@
 <h1>This is an example</h1>
 <p>Now we're getting automated.</p>
 <h1>Hello {user.firstname}!</h1>
+<input type="text" bind:value={user.firstname}>
 <Thing />
